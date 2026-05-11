@@ -1,17 +1,82 @@
 :root {
   /* ── COLORES: reemplaza los valores con los que tú elijas ── */
-  --color-fondo:        ;   /* fondo principal de la página     */
-  --color-fondo-2:      ;   /* fondo de secciones alternas      */
-  --color-fondo-3:      ;   /* fondo de tarjetas                */
-  --color-texto:        ;   /* color del texto principal        */
-  --color-texto-2:      ;   /* color del texto secundario       */
+  --color-fondo: #212121;   /* fondo principal de la página     */
+  --color-fondo-2: #EAEAEA;   /* fondo de secciones alternas      */
+  --color-fondo-3: #B86B84;   /* fondo de tarjetas                */
+  --color-texto: #DADADA;   /* color del texto principal        */
+  --color-texto-2: #FFDF7F;   /* color del texto secundario       */
   --color-acento:       ;   /* color principal de acento        */
   --color-acento-2:     ;   /* versión oscura del acento        */
-  --color-detalle:      ;   /* color para fechas y etiquetas    */
+  --color-detalle: #E0B94F;   /* color para fechas y etiquetas    */
 
   /* ── FUENTES: escribe el nombre de la fuente que elijas ─── */
-  --fuente-titulos:     ;   /* para h1, h2, h3                  */
-  --fuente-cuerpo:      ;   /* para párrafos y navegación       */
+  --fuente-titulos: .lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+;   /* para h1, h2, h3                  */
+  --fuente-cuerpo: 
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+};   /* para párrafos y navegación       */
 }
 
 *, *::before, *::after {
